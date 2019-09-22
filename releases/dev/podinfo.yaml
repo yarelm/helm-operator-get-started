@@ -10,11 +10,9 @@ metadata:
 spec:
   releaseName: podinfo-dev
   chart:
-    git: git@github.com:stefanprodan/gitops-helm
+    git: git@github.com:yarelm/helm-operator-get-started
     path: charts/podinfo
     ref: master
   values:
-    image: stefanprodan/podinfo:dev-hdtwcel9
+    image: yarelmzero/podinfo:dev-9uusnbgd
     replicaCount: 1
-    hpa:
-      enabled: false
